@@ -3,30 +3,37 @@ package study.studyProject;
 // метод, который преобразует массив в ArrayList
 
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
 
 public class Task2 {
     public static void main(String[] args) {
-        String[] arr = new String[5];
+        Convert convert = new Convert();
 
-        for (int i = 0; i < arr.length; i++)
-            arr[i] = "someText";
+        Integer[] integerArr = {1, 2, 3, 4, 5};
+        String[] stringArr = {"A", "B", "C", "D", "E"};
 
-        for (int i = 0; i < arr.length; i++)
-            System.out.print(arr[i] + " ");
+        ArrayList<Integer> integerList = new ArrayList<Integer>();
+        ArrayList<String> stringList = new ArrayList<String>();
+
+        convert.<Integer>convertElements(integerArr, integerList);
+        System.out.println();
+        convert.<String>convertElements(stringArr, stringList);
+    }
+}
+
+class Convert {
+    public <T> void convertElements (T[] elements, ArrayList<T> list) {
+        for (T element : elements) {
+            System.out.print(element);
+        }
         System.out.println();
 
-        Collection<String> collection = new ArrayList<>();
+        for (T element : elements) {
+            list.add(element);
+        }
 
-        convert(arr, collection);
-
-        for (String str : collection)
-            System.out.print(str + " ");
-    }
-
-    public static void convert (String[] arr, Collection<String> collection) {
-        Collections.addAll(collection, arr);
+        for (T element : list) {
+            System.out.print(element);
+        }
+        System.out.println();
     }
 }

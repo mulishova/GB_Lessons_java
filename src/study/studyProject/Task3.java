@@ -32,8 +32,10 @@ public class Task3 {
         System.out.println(orangeBox.getWeight());
 
         System.out.println(appleBox1.compare(appleBox2));
+        System.out.println(appleBox1.compare(orangeBox));
+        System.out.println(orangeBox.compare(appleBox2));
 
-        appleBox1.move(orangeBox);
+        appleBox1.move(appleBox2);
 
         System.out.println(appleBox1.getWeight());
         System.out.println(orangeBox.getWeight());

@@ -4,25 +4,32 @@ package study.studyProject;
 
 public class Task1 {
     public static void main(String[] args) {
-        int[] arr = new int[10];
+        Change change = new Change();
 
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = i;
+        Integer[] integerArr = {1, 2, 3, 4, 5};
+        String[] stringArr = {"A", "B", "C", "D", "E"};
+
+        change.<Integer>changeElements(integerArr, 1,2);
+        System.out.println();
+        change.<String>changeElements(stringArr, 2,4);
+    }
+}
+
+class Change {
+    public <T> void changeElements (T[] elements, int a, int b)
+    {
+        for (T element : elements) {
+            System.out.print(element);
         }
 
-        for (int j : arr)
-            System.out.print(j);
+        T buf = elements[a];
+        elements[a] = elements[b];
+        elements[b] = buf;
 
-        changeElements(arr, 2, 7);
         System.out.println();
 
-        for (int j : arr)
-            System.out.print(j);
-    }
-
-    public static void changeElements (int[] arr, int a, int b) {
-        int buf = arr[a];
-        arr[a] = arr[b];
-        arr[b] = buf;
+        for (T element : elements) {
+            System.out.print(element);
+        }
     }
 }
