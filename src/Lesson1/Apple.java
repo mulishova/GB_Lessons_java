@@ -1,4 +1,4 @@
-package study.studyProject;
+package Lesson1;
 
 public class Apple extends Fruit {
     public Apple() {
