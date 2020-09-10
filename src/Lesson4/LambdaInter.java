@@ -4,5 +4,5 @@ import java.util.List;
 
 @FunctionalInterface
 public interface LambdaInter<T> {
-    T calculate (List<T> list);
+    T calculate (T n, List<T> list);
 }
