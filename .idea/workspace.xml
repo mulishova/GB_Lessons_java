@@ -2,8 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ca6a615-2188-41a4-8e7a-a1426daeacd9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GB_Lessons_java/META-INF/GB_Lessons_java.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GB_Lessons_java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GB_Lessons_java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson1/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson1/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson1/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1/Fruit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson1/Orange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1/Orange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson1/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson1/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson1/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson3/test.txt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson3/test.txt.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson4/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson4/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson4/CarBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson4/CarBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson4/HW4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson4/HW4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson4/IncludeFunctionalInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson4/IncludeFunctionalInter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson4/LambdaInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson4/LambdaInter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson4/LambdaLesson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson4/LambdaLesson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson4/LambdaListDoubleInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson4/LambdaListDoubleInter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson4/LambdaListInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson4/LambdaListInter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson4/LambdaReturnListInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson4/LambdaReturnListInter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson4/LambdaSingleInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson4/LambdaSingleInter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson5/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson5/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson5/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson5/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson5/Race.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson5/Race.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson5/Road.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson5/Road.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson5/Stage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson5/Stage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson5/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson5/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson5/Tunnel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson5/Tunnel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,6 +205,7 @@
       <workItem from="1599729666207" duration="7299000" />
       <workItem from="1599929303121" duration="5154000" />
       <workItem from="1600068404124" duration="8278000" />
+      <workItem from="1600189289019" duration="550000" />
     </task>
     <servers />
   </component>
@@ -193,10 +221,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1599930049817" />
-    <state x="402" y="104" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1599051956339">
+    <state x="402" y="104" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1600189685929">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="402" y="104" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1599051956339" />
+    <state x="402" y="104" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1600189685929" />
     <state x="571" y="304" width="393" height="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1599740144870">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -253,9 +281,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599067876165" />
-    <state x="209" y="39" key="new project wizard" timestamp="1599073861864">
+    <state x="209" y="39" key="new project wizard" timestamp="1600189784309">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="209" y="39" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1599073861864" />
+    <state x="209" y="39" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1600189784309" />
   </component>
 </project>
